@@ -1,0 +1,23 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "ngc -p ./tsconfig-angular.json"
+  },
+  "dependencies": {
+    "@angular/animations": "^7.2.10",
+    "@angular/cdk": "^7.3.5",
+    "@angular/common": "^7.2.10",
+    "@angular/compiler": "^7.2.10",
+    "@angular/compiler-cli": "^7.2.10",
+    "@angular/core": "^7.2.10",
+    "@angular/forms": "^7.2.10",
+    "@angular/material": "^7.3.5",
+    "@angular/platform-browser": "^7.2.10",
+    "rxjs": "^6.4.0",
+    "typescript": "3.2.4",
+    "zone.js": "^0.8.29"
+  }
+}
